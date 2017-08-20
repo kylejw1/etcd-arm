@@ -25,6 +25,7 @@ Eg:
 
 From any device
 
-./build.sh 
+_Note: This dockerfile uses a multi-stage build which requires Docker version 17.06 or later_
+docker build -t etcd-arm . 
 
 
